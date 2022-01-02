@@ -11,24 +11,16 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-### Features
-
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the OpenEnergyMonitor project.
 
 
 **Version incluse :** 10.8.5~ynh1
 
-**Démo :** https://demo.example.com
+
 
 ## Captures d'écran
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/emoncms_graphic.png)
 
 ## Avertissements / informations importantes
 
@@ -48,7 +40,7 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 ## Documentations et ressources
 
 * Site officiel de l'app : https://emoncms.org/
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
+* Documentation officielle de l'admin : https://guide.openenergymonitor.org/
 * Dépôt de code officiel de l'app : https://github.com/emoncms/emoncms
 * Documentation YunoHost pour cette app : https://yunohost.org/app_emoncms
 * Signaler un bug : https://github.com/YunoHost-Apps/emoncms_ynh/issues
