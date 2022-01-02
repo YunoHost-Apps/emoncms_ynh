@@ -4,15 +4,14 @@
     "packaging_format": 1,
     "description": {
         "en": "Web-app for processing, logging and visualising energy, temperature and other environmental data",
-        "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+        "fr": "Application Web pour le traitement, l'enregistrement et la visualisation de l'énergie, de la température et d'autres données environnementales"
     },
     "version": "10.8.5~ynh1",
     "url": "https://emoncms.org/",
     "upstream": {
         "license": "GPL-3.0-only",
         "website": "https://emoncms.org/",
-        "demo": "https://demo.example.com",
-        "admindoc": "https://yunohost.org/packaging_apps",
+        "admindoc": "https://guide.openenergymonitor.org/",
         "code": "https://github.com/emoncms/emoncms"
     },
     "license": "GPL-3.0-only",
