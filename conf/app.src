@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/emoncms/emoncms/archive/refs/tags/10.8.5.tar.gz
+SOURCE_SUM=796f604c011feaaf5a48d4f5756962e5f1af758e8ec744e7acfd9880aa47d87c
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_EXTRACT=true
