@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Emoncms for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/emoncms.svg)](https://dash.yunohost.org/appci/app/emoncms) ![](https://ci-apps.yunohost.org/ci/badges/emoncms.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/emoncms.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/emoncms.svg)](https://dash.yunohost.org/appci/app/emoncms) ![Working status](https://ci-apps.yunohost.org/ci/badges/emoncms.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/emoncms.maintain.svg)  
 [![Install Emoncms with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=emoncms)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -21,28 +21,28 @@ Emoncms is an open-source web application for processing, logging and visualisin
 **Shipped version:** 10.8.5~ynh1
 
 
-
 ## Screenshots
 
-![](./doc/screenshots/emoncms_graphic.png)
+![Screenshot of Emoncms](./doc/screenshots/emoncms_graphic.png)
 
 ## Documentation and resources
 
-* Official app website: https://emoncms.org/
-* Official admin documentation: https://guide.openenergymonitor.org/
-* Upstream app code repository: https://github.com/emoncms/emoncms
-* YunoHost documentation for this app: https://yunohost.org/app_emoncms
-* Report a bug: https://github.com/YunoHost-Apps/emoncms_ynh/issues
+* Official app website: <https://emoncms.org/>
+* Official admin documentation: <https://guide.openenergymonitor.org/>
+* Upstream app code repository: <https://github.com/emoncms/emoncms>
+* YunoHost documentation for this app: <https://yunohost.org/app_emoncms>
+* Report a bug: <https://github.com/YunoHost-Apps/emoncms_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/emoncms_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/emoncms_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade emoncms -u https://github.com/YunoHost-Apps/emoncms_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
