@@ -4,19 +4,9 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="7.4"
+YNH_PHP_VERSION="8.0"
 
 # dependencies used by the app
-pkg_dependencies="php${YNH_PHP_VERSION}-redis php${YNH_PHP_VERSION}-mysql"
+php_dependencies="php${YNH_PHP_VERSION}-redis php${YNH_PHP_VERSION}-mysql"
 
-#=================================================
-# PERSONAL HELPERS
-#=================================================
-
-#=================================================
-# EXPERIMENTAL HELPERS
-#=================================================
-
-#=================================================
-# FUTURE OFFICIAL HELPERS
-#=================================================
+pkg_dependencies="$php_dependencies"

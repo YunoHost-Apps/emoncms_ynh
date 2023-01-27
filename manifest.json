@@ -3,10 +3,10 @@
     "id": "emoncms",
     "packaging_format": 1,
     "description": {
-        "en": "Web-app for processing, logging and visualising energy, temperature and other environmental data",
-        "fr": "Application Web pour le traitement, l'enregistrement et la visualisation de l'énergie, de la température et d'autres données environnementales"
+        "en": "Processing, logging and visualising energy, temperature and other environmental data",
+        "fr": "Traitement enregistrement et la visualisation de l'énergie, de la température et d'autres données environnementales"
     },
-    "version": "10.8.5~ynh1",
+    "version": "11.3.0~ynh1",
     "url": "https://emoncms.org/",
     "upstream": {
         "license": "GPL-3.0-only",
@@ -20,12 +20,12 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm",
+        "php8.0-fpm",
         "mysql"
     ],
     "arguments": {

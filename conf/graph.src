@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/emoncms/graph/archive/refs/tags/2.1.1.tar.gz
-SOURCE_SUM=4224c3f02c9fb525a7d4d07eeafc9de6c2dc79370117e9fa22c2c17abb5226b2
+SOURCE_URL=https://github.com/emoncms/graph/archive/refs/tags/2.2.3.tar.gz
+SOURCE_SUM=a110e881638a07e82b23a5d8df860b49af1e067eb98f4e93a8bad8aebc4ec882
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=false
