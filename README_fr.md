@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Emoncms pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/emoncms.svg)](https://dash.yunohost.org/appci/app/emoncms) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/emoncms.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/emoncms.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/emoncms.svg)](https://dash.yunohost.org/appci/app/emoncms) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/emoncms.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/emoncms.maintain.svg)
 [![Installer Emoncms avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=emoncms)
 
 *[Read this readme in english.](./README.md)*
