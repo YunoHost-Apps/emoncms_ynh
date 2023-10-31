@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Emoncms for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/emoncms.svg)](https://dash.yunohost.org/appci/app/emoncms) ![Working status](https://ci-apps.yunohost.org/ci/badges/emoncms.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/emoncms.maintain.svg)
+
 [![Install Emoncms with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=emoncms)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -29,7 +30,7 @@ Emoncms is an open-source web application for processing, logging and visualisin
 * Official app website: <https://emoncms.org/>
 * Official admin documentation: <https://guide.openenergymonitor.org/>
 * Upstream app code repository: <https://github.com/emoncms/emoncms>
-* YunoHost documentation for this app: <https://yunohost.org/app_emoncms>
+* YunoHost Store: <https://apps.yunohost.org/app/emoncms>
 * Report a bug: <https://github.com/YunoHost-Apps/emoncms_ynh/issues>
 
 ## Developer info
