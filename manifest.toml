@@ -58,7 +58,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    main.url = "php8.2-redis php8.2-mysql"
+    main.url = "mariadb-server, php8.2-redis, php8.2-mysql"
 
     [resources.database]
     type = "mysql"
