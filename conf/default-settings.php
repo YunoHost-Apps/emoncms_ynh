@@ -179,18 +179,18 @@ $_settings = array(
 // (OPTIONAL) Email SMTP, used for password reset or other email functions
 "smtp"=>array(
     // Email address to email proccessed input values
-    'default_emailto' => '',
+    'default_emailto' => '__EMAIL__',
     
     'host'=>"localhost",
     // 25, 465, 587
     'port'=>"25",
-    'from_email' => '',
-    'from_name' => '',
+    'from_email' => 'emoncsm@__DOMAIN__',
+    'from_name' => 'Emoncsm',
     // comment lines below that dont apply
     // ssl, tls
     'encryption'=>"",
-    'username'=>"",
-    'password'=>""
+    'username'=>"__APP__",
+    'password'=>"__MAIL_PWD__"
 ),
 
 // Log file configuration

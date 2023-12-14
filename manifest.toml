@@ -47,8 +47,8 @@ ram.runtime = "50M"
         url = "https://github.com/emoncms/emoncms/archive/refs/tags/11.4.2.tar.gz"
         sha256 = "a374ad0a950c5d966b62d54266bf6761d641417785b64fbf6442f7753b386d6f"
 
-
     [resources.system_user]
+    allow_email = true
 
     [resources.install_dir]
 
