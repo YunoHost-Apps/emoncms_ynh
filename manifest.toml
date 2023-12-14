@@ -41,7 +41,7 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         url = "https://github.com/emoncms/emoncms/archive/refs/tags/11.4.2.tar.gz"
-        sha256 = "a374ad0a950c5d966b62d54266bf6761d641417785b64fbf6442f7753b386d6f"
+        sha256 = "a8ee0c1d37ca5d9a192dffcd11ca6e77c505b4a4100bd71b1ea00755d0dc3ecb"
 
         [resources.sources.graph]
         url = "https://github.com/emoncms/graph/archive/refs/tags/2.2.3.tar.gz"
