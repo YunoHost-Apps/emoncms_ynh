@@ -45,7 +45,6 @@ ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=1
 
 ynh_add_fpm_config
 
-# Create a dedicated NGINX config
 ynh_add_nginx_config
 
 #=================================================

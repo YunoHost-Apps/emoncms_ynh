@@ -4,9 +4,14 @@
 # COMMON VARIABLES
 #=================================================
 
-#REMOVEME? YNH_PHP_VERSION="8.0"
+#=================================================
+# PERSONAL HELPERS
+#=================================================
 
-# dependencies used by the app
-#REMOVEME? php_dependencies="php${YNH_PHP_VERSION}-redis php${YNH_PHP_VERSION}-mysql"
+#=================================================
+# EXPERIMENTAL HELPERS
+#=================================================
 
-#REMOVEME? pkg_dependencies="$php_dependencies"
+#=================================================
+# FUTURE OFFICIAL HELPERS
+#=================================================
