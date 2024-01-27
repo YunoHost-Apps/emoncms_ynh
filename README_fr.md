@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the OpenEnergyMonitor project.
 
 
-**Version incluse :** 11.4.2~ynh1
+**Version incluse :** 11.4.5~ynh1
 
 ## Captures d’écran
 
