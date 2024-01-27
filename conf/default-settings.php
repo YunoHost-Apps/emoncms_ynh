@@ -7,7 +7,7 @@ $_settings = array(
 // Set Emoncms installation domain here to secure installation e.g domain = myemoncmsinstall.org
 "domain" => __DOMAIN__,
 // Suggested installation path for symlinked emoncms modules /opt/emoncms
-"emoncms_dir" => "__FINALPATH__",
+"emoncms_dir" => "__INSTALL_DIR__",
 // Suggested installation path for emonpi and EmonScripts repository: /opt/openenergymonitor
 "openenergymonitor_dir" => "/opt/openenergymonitor",
 
@@ -83,9 +83,9 @@ $_settings = array(
     
     // Engines working folder. Default is /var/lib/phpfina,phptimeseries
     // On windows or shared hosting you will likely need to specify a different data directory--
-    // Make sure that emoncms has write permission's to the datadirectory folders
-    'phpfina'       => array('datadir'  => '__DATADIR__/phpfina/'),
-    'phptimeseries' => array('datadir'  => '__DATADIR__/phptimeseries/'),
+    // Make sure that emoncms has write permission's to the data_directory folders
+    'phpfina'       => array('data_dir'  => '__DATA_DIR__/phpfina/'),
+    'phptimeseries' => array('data_dir'  => '__DATA_DIR__/phptimeseries/'),
     'cassandra'     => array('keyspace' => 'emoncms'),
     // experimental feature for virtual feeds average, default is true, set to false to activate average agregation with all data points, will be slower
     'virtualfeed'   => array('data_sampling' => false),
@@ -179,18 +179,18 @@ $_settings = array(
 // (OPTIONAL) Email SMTP, used for password reset or other email functions
 "smtp"=>array(
     // Email address to email proccessed input values
-    'default_emailto' => '',
+    'default_emailto' => '__EMAIL__',
     
     'host'=>"localhost",
     // 25, 465, 587
     'port'=>"25",
-    'from_email' => '',
-    'from_name' => '',
+    'from_email' => 'emoncsm@__DOMAIN__',
+    'from_name' => 'Emoncsm',
     // comment lines below that dont apply
     // ssl, tls
     'encryption'=>"",
-    'username'=>"",
-    'password'=>""
+    'username'=>"__APP__",
+    'password'=>"__MAIL_PWD__"
 ),
 
 // Log file configuration

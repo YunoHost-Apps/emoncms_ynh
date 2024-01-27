@@ -1,6 +1,0 @@
-SOURCE_URL=https://github.com/emoncms/emoncms/archive/refs/tags/11.3.0.tar.gz
-SOURCE_SUM=a374ad0a950c5d966b62d54266bf6761d641417785b64fbf6442f7753b386d6f
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_EXTRACT=true
