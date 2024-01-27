@@ -1,0 +1,78 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "emoncms"
+name = "Emoncms"
+description.en = "Processing, logging and visualising energy, temperature and other environmental data"
+description.fr = "Traitement enregistrement et la visualisation de l'énergie, de la température et d'autres données environnementales"
+
+version = "11.4.2~ynh1"
+
+maintainers = []
+
+[upstream]
+license = "GPL-3.0-only"
+website = "https://emoncms.org/"
+admindoc = "https://guide.openenergymonitor.org/"
+code = "https://github.com/emoncms/emoncms"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.admin]
+    type = "user"
+
+[resources]
+    [resources.sources]
+    [resources.sources.main]
+    url = "https://github.com/emoncms/emoncms/archive/refs/tags/11.4.2.tar.gz"
+    sha256 = "a8ee0c1d37ca5d9a192dffcd11ca6e77c505b4a4100bd71b1ea00755d0dc3ecb"
+    autoupdate.strategy = "latest_github_tag"
+    autoupdate.asset = "tarball"
+
+    [resources.sources.graph]
+    url = "https://github.com/emoncms/graph/archive/refs/tags/2.2.3.tar.gz"
+    sha256 = "a110e881638a07e82b23a5d8df860b49af1e067eb98f4e93a8bad8aebc4ec882"
+    in_subdir = false
+    autoupdate.strategy = "latest_github_tag"
+    autoupdate.asset = "tarball"
+
+    [resources.system_user]
+    allow_email = true
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = [
+        "mariadb-server",
+        "php8.0-fpm",
+        "php8.0-redis",
+        "php8.0-mysql",
+    ]
+
+    [resources.database]
+    type = "mysql"
