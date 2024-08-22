@@ -19,7 +19,7 @@ Ini TIDAK boleh diedit dengan tangan.
 Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the OpenEnergyMonitor project.
 
 
-**Versi terkirim:** 11.6.2~ynh2
+**Versi terkirim:** 11.6.4~ynh1
 
 ## Tangkapan Layar
 
@@ -29,7 +29,7 @@ Emoncms is an open-source web application for processing, logging and visualisin
 
 - Website aplikasi resmi: <https://emoncms.org/>
 - Dokumentasi admin resmi: <https://guide.openenergymonitor.org/>
-- Repositori kode aplikasi hulu: <https://github.com/emoncms/emoncms>
+- Depot kode aplikasi hulu: <https://github.com/emoncms/emoncms>
 - Gudang YunoHost: <https://apps.yunohost.org/app/emoncms>
 - Laporkan bug: <https://github.com/YunoHost-Apps/emoncms_ynh/issues>
 
