@@ -7,7 +7,7 @@ name = "Emoncms"
 description.en = "Processing, logging and visualising energy, temperature and other environmental data"
 description.fr = "Traitement enregistrement et la visualisation de l'énergie, de la température et d'autres données environnementales"
 
-version = "11.6.9~ynh1"
+version = "11.6.10~ynh1"
 
 maintainers = []
 
@@ -45,14 +45,14 @@ ram.runtime = "50M"
 [resources]
     [resources.sources]
     [resources.sources.main]
-    url = "https://github.com/emoncms/emoncms/archive/refs/tags/11.6.9.tar.gz"
-    sha256 = "362d0f96e8f0fbfd70ad6e34c70116e7be2e4e4a0407be3332d0fe80cad90a79"
+    url = "https://github.com/emoncms/emoncms/archive/refs/tags/11.6.10.tar.gz"
+    sha256 = "0337a5f605c6dc139d841e25aa5143c7bb7e27b69c6ad18a68ab889698bfc62e"
     autoupdate.strategy = "latest_github_tag"
     autoupdate.asset = "tarball"
 
     [resources.sources.graph]
-    url = "https://github.com/emoncms/emoncms/archive/refs/tags/11.6.9.tar.gz"
-    sha256 = "362d0f96e8f0fbfd70ad6e34c70116e7be2e4e4a0407be3332d0fe80cad90a79"
+    url = "https://github.com/emoncms/emoncms/archive/refs/tags/11.6.10.tar.gz"
+    sha256 = "0337a5f605c6dc139d841e25aa5143c7bb7e27b69c6ad18a68ab889698bfc62e"
     in_subdir = false
     autoupdate.strategy = "latest_github_tag"
     autoupdate.asset = "tarball"
