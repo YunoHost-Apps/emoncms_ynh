@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Emoncms YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/emoncms.svg)](https://ci-apps.yunohost.org/ci/apps/emoncms/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/emoncms.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/emoncms.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/emoncms)](https://ci-apps.yunohost.org/ci/apps/emoncms/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/emoncms)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/emoncms)
 
 [![Instalatu Emoncms YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=emoncms)
 
@@ -19,7 +21,7 @@ EZ editatu eskuz.
 Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the OpenEnergyMonitor project.
 
 
-**Paketatutako bertsioa:** 11.6.9~ynh1
+**Paketatutako bertsioa:** 11.6.10~ynh1
 
 ## Pantaila-argazkiak
 
