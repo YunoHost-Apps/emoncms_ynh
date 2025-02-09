@@ -21,7 +21,7 @@
 Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the OpenEnergyMonitor project.
 
 
-**分发版本：** 11.6.11~ynh1
+**分发版本：** 11.6.12~ynh1
 
 ## 截图
 
